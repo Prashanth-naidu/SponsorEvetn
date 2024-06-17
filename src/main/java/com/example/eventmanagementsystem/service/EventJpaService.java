@@ -21,7 +21,7 @@ public class EventJpaService implements EventRepository {
     public EventJpaRepository er;
 
     @Autowired
-    public SponsorRepository sr;
+    public SponsorJpaRepository sr;
 
     @Override
     public ArrayList<Event> getEvents() {
